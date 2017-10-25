@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">And_DicePoker</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="items">
+        <item>사운드팩1</item>
+        <item>사운드팩2</item>
+        <item>사운드팩3</item>
+        <item>사운드팩4</item>
+        <item>사운드팩5</item>
+        <item>주사위스킨1</item>
+        <item>주사위스킨2</item>
+        <item>주사위스킨3</item>
+        <item>배경화면스킨1</item>
+        <item>배경화면스킨2</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

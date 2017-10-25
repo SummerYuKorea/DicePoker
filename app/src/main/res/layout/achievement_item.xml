@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:layout_margin="8dp" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/border"
+        android:id="@+id/imageView17"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:text="도전과제 : 10연승10연승10연승10연승10연승10연승 "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:id="@+id/textView200"
+        android:layout_alignTop="@+id/imageView19"
+        android:layout_toRightOf="@+id/imageView16"
+        android:layout_toEndOf="@+id/imageView16" />
+
+    <TextView
+        android:text=" 보상 : 1000 Gold "
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView300"
+        android:layout_alignBottom="@+id/imageView19"
+        android:layout_toLeftOf="@+id/imageView19"
+        android:layout_toStartOf="@+id/imageView19" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/cup"
+        android:id="@+id/imageView16"
+        android:layout_alignTop="@+id/textView200"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/yes"
+        android:id="@+id/imageView19"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

@@ -1,0 +1,255 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSkyBlue"
+    tools:context="edu.android.and_dicepoker.WinActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/effect_1024_02" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        app:srcCompat="@drawable/ui_c_03" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/star_1024_01"
+        android:layout_above="@+id/textView10"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/star_1024_01"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_toLeftOf="@+id/imageView18"
+        android:layout_toStartOf="@+id/imageView18" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/star_1024_01"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_toRightOf="@+id/imageView18"
+        android:layout_toEndOf="@+id/imageView18" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Win!"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/imageRestart"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="22dp"
+        app:srcCompat="@drawable/icon_120_03"
+        android:layout_alignTop="@+id/imageMenu"
+        android:layout_toRightOf="@+id/imageMenu"
+        android:layout_toEndOf="@+id/imageMenu"
+        android:onClick="onClickBtnRestart"/>
+
+    <ImageView
+        android:id="@+id/imageMenu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/icon_1024_2_04"
+        android:layout_below="@+id/textView10"
+        android:layout_alignLeft="@+id/imageView14"
+        android:layout_alignStart="@+id/imageView14"
+        android:layout_marginTop="20dp"
+        android:onClick="onClickBtnMenu"/>
+
+    <ImageView
+        android:id="@+id/imageNext"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imageMenu"
+        android:layout_toEndOf="@+id/imageRestart"
+        android:layout_toRightOf="@+id/imageRestart"
+        app:srcCompat="@drawable/icon_1024_2_02"
+        android:onClick="onClickBtnRestart"/>
+
+    <ImageView
+        android:id="@+id/cancelWin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/imageView18"
+        android:layout_toEndOf="@+id/imageView21"
+        android:layout_toRightOf="@+id/imageView21"
+        app:srcCompat="@drawable/cancle_1024" />
+
+    <ImageView
+        android:id="@+id/coin"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/shop_coin_01"
+        android:layout_below="@+id/imageRestart"
+        android:layout_alignLeft="@+id/imageMenu"
+        android:layout_alignStart="@+id/imageMenu"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:id="@+id/textStake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/coin"
+        android:layout_toEndOf="@+id/coin"
+        android:layout_toRightOf="@+id/coin"
+        android:text="X 100000"
+        android:textColor="@color/colorWhite"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/cpuResulttint"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@drawable/border5" />
+
+    <ImageView
+        android:id="@+id/cpuResult"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="110dp"
+        app:srcCompat="@drawable/border10" />
+
+    <ImageView
+        android:id="@+id/myResulttint"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+        android:layout_marginTop="54dp"
+        app:srcCompat="@drawable/border5" />
+
+    <ImageView
+        android:id="@+id/myResult"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="102dp"
+
+        android:layout_marginTop="54dp"
+        app:srcCompat="@drawable/border10" />
+
+    <TextView
+        android:id="@+id/textHandType1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/myResulttint"
+        android:layout_alignStart="@+id/myResulttint"
+        android:layout_alignTop="@+id/myResulttint"
+        android:text="폴하우스"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="center"
+
+        android:layout_alignBottom="@+id/myResulttint"
+        android:layout_alignRight="@+id/myResulttint"
+        android:layout_alignEnd="@+id/myResulttint" />
+
+    <TextView
+        android:id="@+id/textHandType2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/cpuResulttint"
+        android:layout_alignStart="@+id/cpuResulttint"
+        android:layout_alignTop="@+id/cpuResulttint"
+        android:text="포 다이스"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/cpuResulttint"
+        android:layout_alignRight="@+id/cpuResulttint"
+        android:layout_alignEnd="@+id/cpuResulttint" />
+
+    <ImageView
+        android:id="@+id/imageProfile1for"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+
+        android:layout_alignBottom="@+id/myResulttint"
+        android:layout_toLeftOf="@+id/textHandType1"
+        android:layout_toStartOf="@+id/textHandType1"
+        app:srcCompat="@drawable/i6" />
+
+    <ImageView
+        android:id="@+id/imageProfile2for"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/cpuResulttint"
+        android:layout_toLeftOf="@+id/textHandType2"
+        android:layout_toStartOf="@+id/textHandType2"
+        app:srcCompat="@drawable/i5" />
+
+    <TextView
+        android:id="@+id/textId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textHandType2"
+        android:layout_alignEnd="@+id/cpuResulttint"
+        android:layout_alignRight="@+id/cpuResulttint"
+        android:layout_toRightOf="@+id/imageProfile2for"
+        android:gravity="left"
+        android:text="TextView"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textId1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textHandType1"
+        android:layout_alignEnd="@+id/myResulttint"
+        android:layout_alignRight="@+id/myResulttint"
+        android:layout_toRightOf="@+id/imageProfile1for"
+        android:gravity="left"
+        android:text="TextView"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

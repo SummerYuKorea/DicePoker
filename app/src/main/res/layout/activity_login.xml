@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSkyBlue"
+    tools:context="edu.android.and_dicepoker.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/loginintBox"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/border5"
+        />
+
+    <ImageView
+        android:id="@+id/loginBox"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        app:srcCompat="@drawable/border" />
+
+    <ImageView
+        android:id="@+id/pwtextBox"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/loginintBox"
+        android:layout_alignStart="@+id/loginintBox"
+        android:layout_alignTop="@+id/loginintBox"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/border4" />
+
+    <ImageView
+        android:id="@+id/inputid"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/logintextBox"
+        android:layout_marginLeft="160dp"
+        app:srcCompat="@drawable/border3" />
+
+    <ImageView
+        android:id="@+id/inputpw"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/logintextBox"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/border3" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignLeft="@+id/logintextBox"
+        android:layout_alignStart="@+id/logintextBox"
+        android:layout_alignRight="@+id/logintextBox"
+        android:layout_alignEnd="@+id/logintextBox"
+        android:layout_alignTop="@+id/logintextBox"
+        android:layout_alignBottom="@+id/logintextBox" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="PW"
+        android:layout_alignLeft="@+id/pwtextBox"
+        android:layout_alignStart="@+id/pwtextBox"
+        android:layout_alignRight="@+id/pwtextBox"
+        android:layout_alignEnd="@+id/pwtextBox"
+        android:layout_alignTop="@+id/pwtextBox"
+        android:layout_above="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/maintext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:text="Dice Poker"
+        android:textSize="65dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:id="@+id/createintBox"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        app:srcCompat="@drawable/border5"
+        android:layout_below="@+id/loginintBox"
+        android:layout_alignLeft="@+id/loginintBox"
+        android:layout_alignStart="@+id/loginintBox" />
+
+    <ImageView
+        android:id="@+id/exitintBox"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border5"
+        android:layout_alignTop="@+id/createintBox"
+        android:layout_alignRight="@+id/loginintBox"
+        android:layout_alignEnd="@+id/loginintBox" />
+
+    <TextView
+        android:id="@+id/exittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_alignRight="@+id/exitintBox"
+        android:layout_alignEnd="@+id/exitintBox"
+        android:layout_alignLeft="@+id/exitintBox"
+        android:layout_alignStart="@+id/exitintBox"
+        android:layout_alignBottom="@+id/exitintBox"
+        android:layout_alignTop="@+id/exitintBox"
+        android:onClick="onClickBtnExitLogin"/>
+
+    <EditText
+        android:id="@+id/editTextPw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/inputpw"
+        android:layout_alignEnd="@+id/inputpw"
+        android:layout_alignLeft="@+id/inputpw"
+        android:layout_alignRight="@+id/inputpw"
+        android:layout_alignStart="@+id/inputpw"
+        android:layout_alignTop="@+id/inputpw"
+        android:background="@null"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="PassWord"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/createBox"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border"
+        android:layout_alignTop="@+id/createintBox"
+        android:layout_alignLeft="@+id/createintBox"
+        android:layout_alignStart="@+id/createintBox" />
+
+    <ImageView
+        android:id="@+id/exitcreateBox"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border"
+        android:layout_alignTop="@+id/exitintBox"
+        android:layout_alignLeft="@+id/exitintBox"
+        android:layout_alignStart="@+id/exitintBox" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border5"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/pwtextBox"
+        android:layout_alignRight="@+id/loginButton"
+        android:layout_alignEnd="@+id/loginButton"
+        android:layout_alignLeft="@+id/loginButton"
+        android:layout_alignStart="@+id/loginButton" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:text="Login"
+        android:gravity="center"
+        android:layout_alignTop="@+id/loginButton"
+        android:layout_alignLeft="@+id/imageView5"
+        android:layout_alignStart="@+id/imageView5"
+        android:layout_alignBottom="@+id/loginButton"
+        android:layout_alignRight="@+id/imageView5"
+        android:layout_alignEnd="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/createtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Create"
+        android:gravity="center"
+        android:layout_alignTop="@+id/createintBox"
+        android:layout_alignBottom="@+id/createintBox"
+        android:layout_alignLeft="@+id/createintBox"
+        android:layout_alignStart="@+id/createintBox"
+        android:layout_alignRight="@+id/createintBox"
+        android:layout_alignEnd="@+id/createintBox"
+        />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text"
+        android:layout_alignEnd="@+id/inputid"
+        android:layout_alignLeft="@+id/inputid"
+        android:layout_alignRight="@+id/inputid"
+        android:layout_alignStart="@+id/inputid"
+        android:layout_alignTop="@+id/inputid"
+        android:background="@null"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logintextBox"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        app:srcCompat="@drawable/border4"
+        android:layout_marginTop="195dp"
+        android:layout_alignLeft="@+id/pwtextBox"
+        android:layout_alignStart="@+id/pwtextBox" />
+
+    <ImageView
+        android:id="@+id/loginButton"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border2"
+        android:layout_alignTop="@+id/imageView5"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

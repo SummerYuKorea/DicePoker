@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSkyBlue"
+    tools:context="edu.android.and_dicepoker.CreateActivity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/idInpuBox"
+        android:layout_alignRight="@+id/idInpuBox"
+        android:layout_alignTop="@+id/imageView23"
+        android:layout_toEndOf="@+id/idBox"
+        android:layout_toRightOf="@+id/idBox"
+        app:srcCompat="@drawable/border" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="190dp"
+        android:layout_toLeftOf="@+id/imageView29"
+
+        android:layout_toStartOf="@+id/imageView29"
+        app:srcCompat="@drawable/border" />
+
+    <ImageView
+        android:id="@+id/mainintBox"
+        android:layout_width="350dp"
+        android:layout_height="410dp"
+        app:srcCompat="@drawable/border5"
+        android:layout_alignTop="@+id/mainBox"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/mainBox"
+        android:layout_width="350dp"
+        android:layout_height="410dp"
+        app:srcCompat="@drawable/border2"
+        android:layout_marginTop="80dp"
+        android:layout_alignLeft="@+id/mainintBox"
+        android:layout_alignStart="@+id/mainintBox" />
+
+    <ImageView
+        android:id="@+id/createintTitle"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border5"
+        android:layout_alignTop="@+id/createTitle"
+        android:layout_alignLeft="@+id/createTitle"
+        android:layout_alignStart="@+id/createTitle" />
+
+    <ImageView
+        android:id="@+id/createTitle"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"
+        app:srcCompat="@drawable/border4" />
+
+    <ImageView
+        android:id="@+id/idInpuBox"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border"
+        android:layout_marginTop="20dp"
+        android:layout_alignTop="@+id/mainintBox"
+        android:layout_toRightOf="@+id/idBox"
+        android:layout_alignRight="@+id/createintTitle"
+        android:layout_alignEnd="@+id/createintTitle" />
+
+    <ImageView
+        android:id="@+id/idBox"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/createintTitle"
+        android:layout_alignStart="@+id/createintTitle"
+        android:layout_alignTop="@+id/idInpuBox"
+        app:srcCompat="@drawable/border" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border"
+        android:layout_alignTop="@+id/imageView23"
+        android:layout_alignRight="@+id/idInpuBox"
+        android:layout_alignEnd="@+id/idInpuBox"
+        android:layout_toRightOf="@+id/idBox"
+        android:layout_toEndOf="@+id/idBox" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border"
+        android:layout_marginTop="160dp"
+        android:layout_toLeftOf="@+id/imageView29"
+        />
+
+    <ImageView
+        android:id="@+id/canceltintBox"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border5"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/imageView39"
+        android:layout_toRightOf="@+id/imageView39"
+        android:layout_toEndOf="@+id/imageView39" />
+
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border3"
+        android:layout_marginLeft="30dp"
+        android:layout_alignTop="@+id/imageView39"
+        android:layout_toRightOf="@+id/imageView39"
+        android:layout_toEndOf="@+id/imageView39" />
+
+    <ImageView
+        android:id="@+id/tintcreateBox"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border5"
+        android:layout_alignTop="@+id/canceltintBox"
+        android:layout_alignLeft="@+id/imageView39"
+        android:layout_alignStart="@+id/imageView39" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border3"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="430dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/createText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignTop="@+id/createTitle"
+        android:layout_alignLeft="@+id/createintTitle"
+        android:layout_alignStart="@+id/createintTitle"
+        android:layout_alignRight="@+id/createintTitle"
+        android:layout_alignEnd="@+id/createintTitle" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="아 이 디"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignTop="@+id/idBox"
+        android:layout_alignLeft="@+id/idBox"
+        android:layout_alignStart="@+id/idBox"
+        android:layout_alignBottom="@+id/idBox"
+        android:layout_toLeftOf="@+id/idInpuBox"
+        android:layout_toStartOf="@+id/idInpuBox" />
+
+
+    <TextView
+        android:id="@+id/pwBox"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imageView23"
+        android:layout_alignStart="@+id/imageView23"
+        android:layout_alignTop="@+id/imageView23"
+        android:gravity="center"
+
+        android:text="비밀번호"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editPw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignEnd="@+id/imageView29"
+        android:layout_alignRight="@+id/imageView29"
+        android:layout_alignTop="@+id/imageView29"
+        android:layout_toRightOf="@+id/imageView23"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textStyle="bold"
+        android:layout_alignBottom="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView39"
+        android:layout_alignLeft="@+id/imageView39"
+        android:layout_alignStart="@+id/imageView39"
+        android:layout_alignTop="@+id/imageView39"
+        android:layout_toLeftOf="@+id/imageView43"
+        android:layout_toStartOf="@+id/imageView43"
+        android:gravity="center"
+        android:text="회원가입"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="onClickBtnRegister"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView43"
+        android:text="취   소"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignBottom="@+id/imageView43"
+        android:layout_alignRight="@+id/imageView43"
+        android:layout_alignEnd="@+id/imageView43"
+        android:layout_alignLeft="@+id/imageView43"
+        android:layout_alignStart="@+id/imageView43"
+        android:onClick="onClickBtnCancel"/>
+
+    <EditText
+        android:id="@+id/editId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/idInpuBox"
+        android:layout_toRightOf="@+id/idBox"
+        android:ems="10"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:hint=""
+        android:layout_alignBottom="@+id/idInpuBox"
+        android:layout_alignRight="@+id/idInpuBox"
+        android:layout_alignEnd="@+id/idInpuBox" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/border"
+
+        android:layout_marginTop="220dp"
+
+        android:layout_alignLeft="@+id/imageView7"
+        />
+
+    <TextView
+        android:id="@+id/pwConfirmtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView12"
+        android:layout_alignEnd="@+id/imageView12"
+        android:layout_alignLeft="@+id/imageView12"
+        android:layout_alignRight="@+id/imageView12"
+        android:layout_alignStart="@+id/imageView12"
+        android:layout_alignTop="@+id/imageView12"
+        android:gravity="center"
+        android:text="비밀번호 확인"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imageView12"
+        android:layout_toRightOf="@+id/imageView12"
+        app:srcCompat="@drawable/border"
+        android:layout_alignRight="@+id/imageView6"
+        android:layout_alignEnd="@+id/imageView6" />
+
+    <EditText
+        android:id="@+id/editPwCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPassword"
+        android:layout_alignTop="@+id/imageView13"
+        android:layout_alignRight="@+id/imageView13"
+        android:layout_alignEnd="@+id/imageView13"
+        android:layout_toEndOf="@+id/imageView12"
+        android:layout_alignBottom="@+id/imageView12"
+        android:layout_toRightOf="@+id/imageView12" />
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="200dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/imageView12"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"
+        app:srcCompat="@drawable/border" />
+
+    <ImageView
+        android:id="@+id/camera"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imageProfile"
+        android:layout_alignEnd="@+id/imageProfile"
+        android:layout_alignRight="@+id/imageProfile"
+        app:srcCompat="@drawable/camera"
+        android:onClick="onClickBtnCamera"/>
+
+
+</RelativeLayout>

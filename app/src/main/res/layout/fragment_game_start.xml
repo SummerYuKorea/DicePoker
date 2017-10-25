@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorSkyBlue"
+    tools:context="edu.android.and_dicepoker.GameStartFragment"
+    android:id="@+id/gameStartLayout">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/bettingtintBox"
+        app:srcCompat="@drawable/border5" />
+
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="5dp"
+        android:layout_alignTop="@+id/bettingtintBox"
+        app:srcCompat="@drawable/border7" />
+
+    <ImageView
+        android:id="@+id/imageView37"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/imageView40"
+        android:layout_alignStart="@+id/imageView40"
+        android:layout_alignTop="@+id/imageView40"
+        app:srcCompat="@drawable/best_01" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/star_1024_01"
+        android:layout_alignBottom="@+id/imageView40"
+        android:layout_alignRight="@+id/imageView40"
+        android:layout_alignEnd="@+id/imageView40" />
+
+    <ImageView
+        android:id="@+id/imageTitleInGameStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView40"
+        app:srcCompat="@drawable/destroyer"
+        android:layout_alignBottom="@+id/imageView40"
+        android:layout_alignRight="@+id/imageView40"
+        android:layout_alignEnd="@+id/imageView40" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+
+        android:layout_marginLeft="240dp"
+
+        android:layout_marginTop="5dp"
+        app:srcCompat="@drawable/shop_coin_01" />
+
+    <TextView
+        android:id="@+id/textGoldInGameStart"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginRight="12dp"
+        android:text="X 10000"
+        android:textSize="23dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageView11"
+        android:layout_marginTop="2dp"
+        android:layout_alignBottom="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageStartInGameStart"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/game_start_1024"
+        />
+
+    <TextView
+        android:id="@+id/textUserIdInGameStart"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:text="summer" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageStartInGameStart"
+        android:text="Game Start"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:textColor="@color/colorWhite"
+        android:layout_alignRight="@+id/imageStartInGameStart"
+        android:layout_alignEnd="@+id/imageStartInGameStart"
+        android:layout_alignLeft="@+id/imageStartInGameStart"
+        android:layout_alignStart="@+id/imageStartInGameStart" />
+
+
+</RelativeLayout>
